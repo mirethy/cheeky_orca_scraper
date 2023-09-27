@@ -36,13 +36,13 @@ with open(file_path, mode='w') as file:
     # Requesting and getting the webpage using requests
     print(f'\nScraping in progress...\n')
     for page in range(no_of_pages):
-        url = 'https://api.scrapingdog.com/scrape?api_key=650d6342dacdc855c236466f&url=https://nl.indeed.com/jobs?q=researcher&l=Amsterdam&from=searchOnHP&vjk=cc167a106a46f6b9&dynamic=false'
+        url = 'WEBSITE URL'
         response = requests.get(url, headers=head)
         html = response.text
 
         # Scrapping the Web
         soup = BeautifulSoup(html, 'lxml')
-        base_url = 'https://api.scrapingdog.com/scrape?api_key=650d6342dacdc855c236466f&url=https://nl.indeed.com/jobs?q=researcher&l=Amsterdam&from=searchOnHP&vjk=cc167a106a46f6b9&dynamic=false'
+        base_url = 'WEBSITE URL'
         d = soup.find('div', attrs={'id': 'mosaic-provider-jobcards'})
 
         jobs = soup.find_all('a', class_='tapItem')
