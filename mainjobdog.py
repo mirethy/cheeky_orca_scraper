@@ -5,7 +5,7 @@ l=[]
 o={}
 
 
-target_url = "https://api.scrapingdog.com/scrape?api_key=650d6342dacdc855c236466f&url=https://nl.indeed.com/jobs?q=researcher&l=Amsterdam&from=searchOnHP&vjk=cc167a106a46f6b9&dynamic=false"
+target_url = "WEBSITE URL"
 head= {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
