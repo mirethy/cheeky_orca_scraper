@@ -15,7 +15,7 @@ company_locations = []
 estimate_salaries = []
 
 #requests
-r = requests.get(f"https://api.scrapingdog.com/scrape?api_key=650d6342dacdc855c236466f&url=https://nl.indeed.com/jobs?q=researcher&l=Amsterdam&from=searchOnHP&vjk=cc167a106a46f6b9&dynamic=false")
+r = requests.get(f"WEBSITE URL")
 print(r.status_code) #keep till after changing link
 response = r.content
 
